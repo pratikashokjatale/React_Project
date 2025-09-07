@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// ...existing code...
+import viteLogo from './assets/vite.svg' // <-- Use relative path
+// ...existing code...
 import './App.css'
 
 function App() {
